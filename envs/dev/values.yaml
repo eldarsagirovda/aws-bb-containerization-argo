@@ -3,6 +3,6 @@ spec:
     server: https://kubernetes.default.svc
   source:
     repoURL: https://github.com/eldarsagirovda/aws-bb-containerization-app
-    targetRevision: '21'
+    targetRevision: '22'
   image:
-    tag: '21'
+    tag: '22'
