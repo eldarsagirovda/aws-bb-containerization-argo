@@ -18,7 +18,8 @@ spec:
       parameters:
         - name: image.tag
           value: "{{ .Values.spec.image.tag }}"
-          replicaCount: 1
+        - name: replicaCount
+          value: 1
   syncPolicy:
     automated:
       prune: true
