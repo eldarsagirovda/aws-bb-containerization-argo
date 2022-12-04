@@ -19,7 +19,7 @@ spec:
         - name: image.tag
           value: "{{ .Values.spec.image.tag }}"
         - name: replicaCount
-          value: 1
+          value: "1"
   syncPolicy:
     automated:
       prune: true
